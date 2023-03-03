@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran SIB</title>
+</head>
+<body>
+    <h1>Form Pendaftaran SIB 2023</h1>
+    <label for="fname">Nama Lengkap:</label>
+    <br>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <label for="isian email">Email</label>
+    <br>
+    <input type="text" id="isian email" name="isian email">
+    <br>
+    <label for="Nomor HP">No. HP</label>
+    <br>
+    <input type="text" id="Nomor HP" name="Nomor HP">
+    <br> 
+    <form action="Jenis Kelamin">Jenis Kelamin:</form>
+    <div>
+        <input id="lk" type="radio" name="jenis kelamin" >
+        <label for="lk">Laki-laki</label>
+    </div>
+    <div>
+        <input id="pr" type="radio" name="jenis kelamin" >
+        <label for="pr">Perempuan</label>
+    </div>
+    <br>
+    <label for="jurusan">Pilih jurusan</label>
+    <br>
+    <select name="jurusan" id="jurusan">
+        <option value="Teknik Informatika">Teknik Informatika</option>
+        <option value="Manajemen">Manajemen</option>
+        <option value="Administrasi Bisnis">Administrasi Bisnis</option>
+        <option value="Pendidikan">Pendidikan</option>
+    </select>
+    <br>
+    <form action="Alamat">Alamat</form>
+    <textarea name="Alamat" id="Alamat" cols="30" rows="10"></textarea>
+    <br>
+    <form action="proses_upload.php" method="post" enctype="multipart/form-data">
+        <label for="foto"> Foto :</label>
+        <br>
+        <input type="file" id="foto" name="foto">
+      </form>
+      <br>
+      <input type="submit" value="Submit">
+</body>
+</html>
