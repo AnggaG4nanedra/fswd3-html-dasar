@@ -1,0 +1,44 @@
+body {
+    background-color: yellow;
+  }
+  .cards {
+    display: block;
+    gap: 10px;
+  }
+  
+  .card {
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    row-gap: 10px;
+
+  }
+  
+  .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card .caption {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .card h2 {
+    margin: 0 ;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+  }
+
+  
+
+  
