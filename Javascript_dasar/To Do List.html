@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="../css/To Do.css">
+    <script src="../js/To Do.js" defer></script>
+</head>
+<body>
+    <div class="section-todo-list">
+        <h4>Yuk Atur Jadwalmu</h4>
+        <h2>Jadwal To Do List</h2>
+        <div class="input-btn">
+            <input type="text">
+            <button onclick="addTasks()">Masukkan Kegiatan</button>
+        </div>
+        <div class="list-tasks">
+            <ul>
+                <li>masukkan kegiatanmu <span>X</span></li>
+                <li>masukkan kegiatanmu <span>X</span></li>
+                <li>masukkan kegiatanmu <span>X</span></li>
+                <li>masukkan kegiatanmu <span>X</span></li>
+            </ul>
+        </div>
+        <button class="remove-all" onclick="deleteAll()">Hapus Semua</button>
+    </div>
+</body>
