@@ -8,17 +8,21 @@ body {
   
   .card {
     width: 400px;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
 
   }
   
   .card img {
-    display: block;
     width: 100%;
     height: auto;
+
   }
   
   .card .caption {
