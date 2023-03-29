@@ -1,3 +1,40 @@
 body {
-    align-items: center;
+    background-color: lightyellow;
+    background-image: url(https://images2.alphacoders.com/966/thumb-1920-96622.jpg);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.header{
+    font-family: arial;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    width:50%;
+    border-radius: 10px;
+}
+.header img{
+    width: 200px;
+    border-radius: 10px;
+   
+}
+.header h1{
+    font-weight: 1000;
+}
+.Pages{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    line-height: 2em;
+    box-shadow: 0 2px 5px ;
+}
+.Javascript{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    line-height: 2em;
+    box-shadow: 0 2px 5px ;
 }
